@@ -1,0 +1,40 @@
+{
+    "weatherReport":[
+        {
+            "id":"1",
+            "day":"Monday",
+            "tempInF":"56",
+            "tempInC":"35",
+            "forecast":"rainy"
+        },
+        {
+            "id":"2",
+            "day":"Tuesday",
+            "tempInF":"85",
+            "tempInC":"68",
+            "forecast":"dizzy"
+        },
+        {
+            "id":"3",
+            "day":"Thursday",
+            "tempInF":"78",
+            "tempInC":"39",
+            "forecast":"storm"
+        },
+        {
+            "id":"4",
+            "day":"Friday",
+            "tempInF":"82",
+            "tempInC":"63",
+            "forecast":"sunny"
+        },
+        {
+            "id":"5",
+            "day":"Saturday",
+            "tempInF":"85",
+            "tempInC":"33",
+            "forecast":"fog"
+        }
+
+    ]
+}

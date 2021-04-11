@@ -1,12 +1,18 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import Weather from './Weather/Weather';
-class Weathers extends Component{
-    render(){
-        return(
-               <Weather/>
-        );
-    }
+import classes from './Weathers.module.css';
+const weathers =(props)=>{
+  
+ 
+    return (
+        <div className={classes.WeathersContainer}> 
+           {props.weather.map((report)=>{
+               //console.log(report)
+               return <Weather key={report.id+1} todaysWeather={report}/>
+           })}
+       </div>
+    )
 
 }
 
-export default Weathers;
+export default weathers;
