@@ -1,40 +1,160 @@
 {
     "weatherReport":[
         {
-            "id":"1",
-            "day":"Monday",
-            "tempInF":"56",
-            "tempInC":"35",
-            "forecast":"rainy"
+            "dt":1570244400,
+            "main":{
+               
+            "temp":288.11,
+            "temp_min":286.961,
+            "temp_max":288.11,
+            "pressure":1019.73,
+            "sea_level":1019.73,
+            "grnd_level":1011.77,
+            "humidity":68,
+            "temp_kf":1.15
+            },
+            "weather":{
+            "id":800,
+            "main":"Clear",
+            "description":"clear sky",
+            "icon":"01n"
+            },
+            "clouds":{
+            "all":0
+            },
+            "wind":{
+            "speed":3.15,
+            "deg":275.935
+            },
+            "sys":{
+            "pod":"n"
+            },
+            "dt_txt":"2019-10-05 03:00:00"
         },
         {
-            "id":"2",
-            "day":"Tuesday",
-            "tempInF":"85",
-            "tempInC":"68",
-            "forecast":"dizzy"
+            "dt":1570244401,
+            "main":{
+               
+            "temp":268.11,
+            "temp_min":268.961,
+            "temp_max":266.11,
+            "pressure":1011.70,
+            "sea_level":1018.55,
+            "grnd_level":1011.77,
+            "humidity":66,
+            "temp_kf":1.15
+            },
+            "weather":{
+            "id":800,
+            "main":"Clear",
+            "description":"clear sky",
+            "icon":"01n"
+            },
+            "clouds":{
+            "all":0
+            },
+            "wind":{
+            "speed":4.15,
+            "deg":288.58
+            },
+            "sys":{
+            "pod":"n"
+            },
+            "dt_txt":"2019-10-05 03:00:00"
         },
         {
-            "id":"3",
-            "day":"Thursday",
-            "tempInF":"78",
-            "tempInC":"39",
-            "forecast":"storm"
+            "dt":1570244402,
+            "main":{
+               
+            "temp":288.11,
+            "temp_min":286.961,
+            "temp_max":288.11,
+            "pressure":1019.73,
+            "sea_level":1019.73,
+            "grnd_level":1011.77,
+            "humidity":68,
+            "temp_kf":1.15
+            },
+            "weather":{
+            "id":800,
+            "main":"Clear",
+            "description":"clear sky",
+            "icon":"01n"
+            },
+            "clouds":{
+            "all":0
+            },
+            "wind":{
+            "speed":3.15,
+            "deg":275.935
+            },
+            "sys":{
+            "pod":"n"
+            },
+            "dt_txt":"2019-10-05 03:00:00"
         },
         {
-            "id":"4",
-            "day":"Friday",
-            "tempInF":"82",
-            "tempInC":"63",
-            "forecast":"sunny"
+            "dt":1570244403,
+            "main":{
+               
+            "temp":288.11,
+            "temp_min":286.961,
+            "temp_max":288.11,
+            "pressure":1019.73,
+            "sea_level":1019.73,
+            "grnd_level":1011.77,
+            "humidity":68,
+            "temp_kf":1.15
+            },
+            "weather":{
+            "id":800,
+            "main":"Clear",
+            "description":"clear sky",
+            "icon":"01n"
+            },
+            "clouds":{
+            "all":0
+            },
+            "wind":{
+            "speed":3.15,
+            "deg":275.935
+            },
+            "sys":{
+            "pod":"n"
+            },
+            "dt_txt":"2019-10-05 03:00:00"
         },
         {
-            "id":"5",
-            "day":"Saturday",
-            "tempInF":"85",
-            "tempInC":"33",
-            "forecast":"fog"
+            "dt":1570244404,
+            "main":{
+               
+            "temp":288.11,
+            "temp_min":286.961,
+            "temp_max":288.11,
+            "pressure":1019.73,
+            "sea_level":1019.73,
+            "grnd_level":1011.77,
+            "humidity":68,
+            "temp_kf":1.15
+            },
+            "weather":{
+            "id":800,
+            "main":"Clear",
+            "description":"clear sky",
+            "icon":"01n"
+            },
+            "clouds":{
+            "all":0
+            },
+            "wind":{
+            "speed":3.15,
+            "deg":275.935
+            },
+            "sys":{
+            "pod":"n"
+            },
+            "dt_txt":"2019-10-05 03:00:00"
         }
-
+        
     ]
 }

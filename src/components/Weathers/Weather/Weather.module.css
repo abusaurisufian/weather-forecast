@@ -1,6 +1,6 @@
 .WeatherContainer{
     background-image: linear-gradient(to bottom, #fd8379, #ef7273, #e0626e, #d15169, #c14164);
-    width: 10rem;
+    width: 15rem;
     margin-right:5px ;
     margin-left: 5px;
     text-align: center;
@@ -11,9 +11,13 @@
     color: white;
     padding: 3px 5px;
     text-transform: capitalize;
+    text-decoration: none;
 }
 .WeatherContainer p{
     font-family: 'Playfair Display', serif;
-     font-size: 1.4rem;
-     font-weight: 400;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.WeatherContainer a{
+    
 }

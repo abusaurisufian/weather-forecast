@@ -1,4 +1,12 @@
 .WeathersContainer{
     display: flex;
-   
+   justify-content: space-between;
+}
+.CenterCity{
+    text-align: center;
+}
+
+.WeathersContainer a{
+    
+    text-decoration: none;
 }

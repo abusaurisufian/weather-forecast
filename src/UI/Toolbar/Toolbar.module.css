@@ -1,0 +1,32 @@
+/* .ToolbarContainer{
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+} */
+.Toolbar{
+    height: 49px;
+    font-size: 15px;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 1.3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(235, 92, 35);
+    color: white;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 4px rgb(131, 128, 128);
+}
+.Toolbar li{
+    /*  border: 1px solid black; */
+    cursor: pointer;
+    padding: 15px;
+}
+.Toolbar li:hover,
+.Toolbar li:active,
+.Toolbar li.active
+{
+    background-color: rgb(255, 255, 255);
+    color:  rgb(235, 92, 35);
+}
