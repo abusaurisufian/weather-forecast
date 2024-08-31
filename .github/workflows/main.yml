@@ -23,8 +23,7 @@ jobs:
           sshpass -p '${{ secrets.PSWD }}' ssh -v -o StrictHostKeyChecking=no ${{ secrets.USER }}@${{ secrets.HOST }} <<'ENDSSH'
           cd ${{ secrets.APP_PATH }}
           git pull
-          docker stop ${{ secrets.APP_NAME }}
+          docker compose down -v
           docker system prune -f
-          export ${{ secrets.API_KEY_NAME }}=${{ secrets.API_KEY }}
-          make deploy_headless
+          docker compose up -d --build --remove-orphans
           ENDSSH
