@@ -23,7 +23,7 @@ jobs:
           sshpass -p '${{ secrets.PSWD }}' ssh -v -o StrictHostKeyChecking=no ${{ secrets.USER }}@${{ secrets.HOST }} <<'ENDSSH'
           cd ${{ secrets.APP_PATH }}
           git pull
-          docker compose down -v
-          docker system prune -f
-          docker compose up -d --build --remove-orphans
+          #docker compose down -v
+          #docker system prune -f
+          #docker compose up -d --build --remove-orphans
           ENDSSH
