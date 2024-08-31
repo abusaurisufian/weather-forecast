@@ -18,12 +18,12 @@ jobs:
           ssh-keyscan -p 22 ${{ secrets.ARTIFACT_HOST }} >> ~/.ssh/known_hosts
           sudo apt-get install sshpass
 
-      #- name: Deploy to server
-        #run: |
-          #sshpass -p '${{ secrets.PSWD }}' ssh -v -o StrictHostKeyChecking=no ${{ secrets.USER }}@${{ secrets.HOST }} <<'ENDSSH'
-          #cd ${{ secrets.APP_PATH }}
-          #git pull
+      - name: Deploy to server
+        run: |
+          sshpass -p '${{ secrets.PSWD }}' ssh -v -o StrictHostKeyChecking=no ${{ secrets.USER }}@${{ secrets.HOST }} <<'ENDSSH'
+          cd ${{ secrets.APP_PATH }}
+          git pull
           #docker compose down -v 
           #docker system prune -f
           #docker compose up -d --build --remove-orphans
-          #ENDSSH
+          ENDSSH
